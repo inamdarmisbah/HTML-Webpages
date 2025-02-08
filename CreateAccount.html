@@ -1,0 +1,322 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sign up to for facebook </title>
+    <style>
+        .bodypage {
+            background-color: rgba(212, 212, 212, 0.836);
+
+        }
+
+        .title {
+            color: #0866ff;
+            font-size: 60px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+
+
+        }
+
+        .mainpage {
+            background-color: white;
+            width: 38%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .sentence {
+            text-align: center;
+            color: rgba(119, 119, 119, 0.973);
+            font-size: 20px;
+            margin: 0%;
+        }
+
+        .f1 {
+            padding: 11px;
+            border: 1px solid gray;
+            border-radius: 7px;
+            /* width:45%; */
+            font-size: 18px;
+
+        }
+
+        .f2 {
+            padding: 11px;
+            border: 1px solid gray;
+            border-radius: 7px;
+            /* margin-left: 8px; */
+            /* width:45%; */
+            font-size: 18px;
+        }
+
+        .F {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            text-align: center;
+
+        }
+
+        .dob{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .s1 {
+            color: rgb(105, 104, 104);
+            margin: 20px;
+        }
+
+        
+
+        .gender {
+            color: rgb(105, 104, 104);
+            margin: 20px;
+        }
+
+        .number {
+            width: 100%;
+            margin: 10px 0px ;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            border: 1px solid gray;
+            font-size: 18px;
+
+
+
+
+        }
+
+        .pass {
+            width: 100%;
+            margin:10px 0px;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+    
+            font-size: 18px;
+
+        }
+
+        .Sign {
+            background-color: #00a400;
+            color: white;
+            border-radius: 7px;
+            border: none;
+            text-align: center;
+            width: 50%;
+            margin-left: 110px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .link1 {
+            font-size: 23px;
+
+            color:blue;
+            margin-left: 120px;
+            text-decoration: none;
+        }
+
+        .month {
+            border: 1px solid gray;
+            padding: 10px;
+            width: 30%;
+            border-radius: 5px;
+        }
+
+        .day {
+            border: 1px solid gray;
+            padding: 10px;
+            width: 30%;
+            border-radius: 5px;
+        }
+
+        .year {
+            border: 1px solid gray;
+            padding: 10px;
+            width: 30%;
+            border-radius: 5px;
+        }
+
+        .gen {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+        .gender-div {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 10px;
+        }
+
+        .m {
+            border: 1px solid gray;
+            width: 20%;
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+
+        .fe {
+            border: 1px solid gray;
+            /* width:20%; */
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .c {
+            border: 1px solid gray;
+
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .link{
+            color:#385898;
+            text-decoration: none;
+        }
+        .passege{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body class="bodypage">
+    <div class="title">facebook</div>
+    <div class="mainpage">
+        <div class="heading"> Create a new account</div>
+        <div class="sentence">It's quick and easy.</div>
+        <hr>
+        <div class="F">
+            <input class="f1" type="text" placeholder="First name">
+            <input class="f2" type="text" placeholder="Surname">
+        </div>
+        <div class="s1">Date of birth <i class="fa fa-question-circle" aria-hidden="true"></i></div>
+
+
+        <div class="dob">
+
+            <select class="day" id="day" name="day">
+                <option value="">Day</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+
+
+            </select>
+
+
+
+            <select class="month" id="month" name="month">
+                <option value="">Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+
+            </select>
+
+            <select class="year" id="Year" name="Year">
+                <option value="">year</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+                <option value="">2004</option>
+                <option value="">2005</option>
+                <option value="">2006</option>
+                <option value="">2007</option>
+                <option value="">2008</option>
+                <option value="">2009</option>
+                <option value="">2010</option>
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+
+
+            </select>
+        </div>
+
+        <div class="gender">Gender<i class="fa fa-question-circle" aria-hidden="true"></i></div>
+
+        <div class="gender-div">
+            <div class="m">
+                <label>Male</label>
+                <input type="radio" value="male" name="Gender">
+            </div>
+            <div class="m">
+                <label>female</label>
+                <input type="radio" value="female" name="Gender">
+            </div>
+            <div class="m">
+                <label>custom</label>
+                <input type="radio" value="custom" name="Gender">
+            </div>
+        </div>
+
+        <input type="text" class="number" placeholder="Mobile number or email address">
+        <input type="password" class="pass" placeholder="New Password">
+        <div>
+            <div class="passege">People who use our service may have uploaded your contact information to Facebook.
+            <a href="#" class="link">Learn more.</a>
+            <br>
+            </div>
+            <div class="passege">
+            By clicking Sign Up, you agree to our Terms, <a href="#" class="link"> Terms,</a>
+            <a href="#" class="link">Privacy Policy</a>
+            and
+            <a href="#" class="link">Cookies Policy</a>
+            You may receive SMS notifications from us and can opt out at any time.
+            </div>
+        </div>
+        <button class="Sign">Sign Up</button>
+        <br>
+        <a href="http://127.0.0.1:5500/facebook.html" class="link1">Already have an account?</a>
+    </div>
+    </div>
+</body>
+
+</html>
